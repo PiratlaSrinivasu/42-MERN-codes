@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Lato", sans-serif;
+}
+.outer{
+    width:100vw;
+    height:100vh;
+    background: linear-gradient(to top left,#3f869e,#a8f5ff);
+}
+.inner{
+    width:350px;
+    margin: 0 auto ;
+    /* border: 2px solid black; */
+    position: relative;
+    top:40%;
+    transform: translateY(-50%);
+    padding: 20px 40px;
+    background-color: #ffffff4e;
+    /* background: linear-gradient(to top left,#ffffffff,#ffffff33); */
+    backdrop-filter: blur(8px);
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #2773a5;
+    z-index: 1;
+}
+.reg-head h1{
+    text-align: center;
+    font-size: 2.5rem;
+    margin:0 0 5px 0;
+}
+.reg-head p{
+    font-size:0.9rem;
+    text-align: center;
+}
+.reg-body{
+    margin:20px 0;
+}
+.reg-body p{
+    margin:10px 0;
+}
+.reg-body p label{
+    display: block;
+    font-weight:bold ;
+    
+}
+.reg-body p input{
+    width:100%;
+    padding:10px;
+    border: 2px solid #cccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-top:4px;
+}
+.reg-body p input[type="submit"]{
+    background-color: #3498db;
+    border:none;
+    color: #fff;
+    cursor: pointer;
+}
+.reg-body p input[type="submit"]:hover{
+    background-color:#2573a7;
+}
+h6{
+    display: inline;
+}
+.reg-footer p{
+    color: #555;
+    text-align: center;
+}
+.reg-footer p a{
+    color:#3f869e
+}
+
+

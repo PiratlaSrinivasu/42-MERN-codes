@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="outer">
+        <div class="inner">
+            <header class="reg-head">
+                <h1>Registration</h1>
+            </header>
+            <main class="reg-body">
+                <p>
+                    <label for="first-name">First Name</label>
+                    <input type="text" id="first-name" required>
+                </p>
+                <p>
+                    <label for="last-name">Last Name</label>
+                    <input type="text" id="last-name" required>
+                </p>
+                <p>
+                    <label for="email">Email</label>
+                    <input type="text" id="email" >
+                </p>
+                <p>
+                    <label for="password">Password</label>
+                    <input type="text" id="password">
+                </p>
+                <p>
+                    <label for="conpass">Conform Password</label>
+                    <input type="text" id="conpass" >
+                </p>
+                <p  class="checkbox" >
+                    <h6><a href="#">Terms and Conditions</a></h6> <input type="checkbox" id="agree"> 
+                    
+                </p>
+                <p>
+                    <input type="submit" value="Create Account" id="submit" onclick="validateForm()">
+                </p>
+            </main>
+            <footer class="reg-footer">
+                <p>Already have account?<a href="login.html">Login</a></p>
+            </footer>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
